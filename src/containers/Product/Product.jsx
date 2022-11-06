@@ -5,10 +5,12 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 import DataTable from '../../components/Table';
 import { selectors, actions } from '../../state/ducks/products/index';
 import getColumns from '../../constants/TableHeader';
 import Popup from '../../components/Popup';
+
 import Op from '../../constants/operations';
 import './Product.scss';
 
@@ -77,6 +79,8 @@ class Product extends React.PureComponent {
             handleSubmit={this.handleSubmit}
           />
           <p className="error">{errorMessage}</p>
+          <Link to="/image-gallery"> Link to Image Gallery </Link>
+
         </div>
       </Box>
 

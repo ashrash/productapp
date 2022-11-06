@@ -9,8 +9,8 @@ NodeJs
 
 ## Folder structure 
 ```
-├── .github/workflows
-├─ config
+
+├── config
 ├── server
 │   ├── config
 │   ├── controllers

@@ -1,0 +1,27 @@
+.app-layout{
+    width: 55rem;
+}
+
+
+.center-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.title {
+    color: #0077d2;
+}
+
+.add-new {
+    align-items: start;
+    justify-content: start;
+    display: flex;
+}
+
+.error {
+    color: red;
+}

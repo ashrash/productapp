@@ -1,0 +1,92 @@
+tags:
+- name: Products
+  description: Products API
+
+paths:
+  /product/all:
+    get:
+      tags:
+      - Products
+      summary: Find All Products
+      responses:
+        200:
+          description: 'OK'
+        500:
+          description: 'Server Error'
+  /product:
+    post:
+      tags:
+      - Products
+      summary: Add a Products
+      parameters:
+      - name: body
+        in: body
+        description: Products Data
+        required: true
+        schema:
+          $ref: '#/definitions/products'
+      responses:
+        201:
+          description: 'Created'
+        400:
+          description: 'Bad Request'
+        500:
+          description: 'Server Error'
+  /product/{_id}:
+    put:
+      tags:
+      - Products
+      summary: Update Product By _id
+      parameters:
+      - name: body
+        in: body
+        description: Products Data
+        required: true
+        schema:
+          $ref: '#/definitions/products'
+      responses:
+        200:
+          description: 'OK'
+        400:
+          description: 'Bad Request'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+    delete:
+      tags:
+      - Products
+      summary: Delete Product By _id
+      parameters:
+      - name: body
+        in: body
+        description: Products Data
+        required: true
+        schema:
+          $ref: '#/definitions/products'
+      responses:
+        200:
+          description: 'OK'
+        400:
+          description: 'Bad Request'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+# definitions
+definitions:
+  products:
+    type: object
+    required:
+        - _id
+        - name
+    properties:
+      name:
+        type: string
+        description: Product Name
+      price:
+        type: string
+        description: Product Price
+   
+schemes:
+ - http

@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/aramamurth/mern-boilerplate/server/lib/error/.66d2414a35c8e2058bb3d7aacc6178c70d637cd4-audit.json",
+    "files": [
+        {
+            "date": 1667576353645,
+            "name": "/Users/aramamurth/mern-boilerplate/server/lib/error/2022-11-04.log",
+            "hash": "abd6c66e5ed2c92b0f19b2651a6fc68c7f833f5b7cacc42085de6680a91aeabd"
+        },
+        {
+            "date": 1667634319404,
+            "name": "/Users/aramamurth/mern-boilerplate/server/lib/error/2022-11-05.log",
+            "hash": "3eb298e6e096bb07664e2561761999080ae239e89dac799b5dd5b34ee70f5eb0"
+        },
+        {
+            "date": 1667714592356,
+            "name": "/Users/aramamurth/mern-boilerplate/server/lib/error/2022-11-06.log",
+            "hash": "ac1e80029b647938e28eb23e17defcd05849a82f7b8fb1c2efd95f3a658e55a8"
+        }
+    ],
+    "hashType": "sha256"
+}

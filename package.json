@@ -1,11 +1,11 @@
 {
-  "name": "toggle-anything",
+  "name": "product-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test:server": "mocha ./server/tests/*.test.js",
-    "test:ui": "",
+    "test": "jest -c \"./config/jest.config.js\"",
     "dev": "webpack serve --config=\"./config/webpack.local.js\" --open  --hot --host 127.0.0.1 --port 8080",
     "server": "node -r esm ./server",
     "build": "webpack --config ./config/webpack.prod.js"
@@ -26,6 +26,7 @@
     "core-js": "^2.5.7",
     "css-loader": "^5.2.4",
     "dotenv": "^9.0.2",
+    "enzyme": "^3.11.0",
     "eslint-webpack-plugin": "^2.5.4",
     "esm": "^3.2.25",
     "express": "^4.17.1",
@@ -70,6 +71,7 @@
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-react": "^7.13.13",
     "@types/react-dom": "^18.0.8",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.7.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "chai": "^4.3.6",
@@ -79,6 +81,7 @@
     "eslint-plugin-import": "^2.23.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
+    "jest-junit": "^14.0.1",
     "mocha": "^10.1.0",
     "pm2": "^4.5.6",
     "redux-devtools-extension": "^2.13.9",

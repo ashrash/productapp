@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="3.184">
+  <testsuite name="&lt;CustomSnackBar /&gt;" errors="0" failures="0" skipped="0" timestamp="2022-11-06T06:50:17" time="1.174" tests="1">
+    <testcase classname="&lt;CustomSnackBar /&gt; shows CustomSnackBar" name="&lt;CustomSnackBar /&gt; shows CustomSnackBar" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>

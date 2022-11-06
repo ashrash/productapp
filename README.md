@@ -64,9 +64,12 @@ npm run server
 
 ## Running Tests
 Make sure the app is running using the above command for the backend app.
-```
-npm run test
-```
+**Backend unit tests**
+```npm run test:server```
+
+**FrontEnd unit tests**
+
+```npm run test```
 
 ## Swagger endpoint
 

@@ -26,3 +26,9 @@ ImageListGallery.propTypes = {
     title: PropTypes.string,
   })).isRequired,
 };
+
+const TestHooks = {
+  ImageListGallery,
+};
+
+export { TestHooks };

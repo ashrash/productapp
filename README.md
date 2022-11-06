@@ -49,9 +49,16 @@ NodeJs
 #Install dependencies
 npm i 
 
-#Start app in dev mode. Default port: 3000
+#Start frontend app in dev mode. Default port: 8080
 npm run dev 
 ```
+Product app: ``` http://localhost:8080/ ```
+
+Image gallery app: ``` http://localhost:8080/image-gallery ```
+
+**FrontEnd unit tests:**
+```npm run test```
+
 
 ## Running backend App in DEV mode
 ``` 
@@ -62,14 +69,16 @@ npm i
 npm run server 
 ```
 
-## Running Tests
 Make sure the app is running using the above command for the backend app.
 
 **Backend unit tests:**
 ```npm run test:server```
 
-**FrontEnd unit tests:**
-```npm run test```
+
+
+
+
+
 
 ## Swagger endpoint
 
